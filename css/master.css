@@ -1,0 +1,350 @@
+@font-face {
+	font-family:"roboto";
+	src:url(roboto/Roboto-Light.ttf);
+}
+
+html,body {
+	margin:0;
+	padding:0;
+	font-family:"roboto";
+	color:#505050;
+	height:100%;
+	min-height:100%;
+	background-color:#E8E8E8;
+}
+
+.meny {
+	position:relative;
+	top:22px;
+	cursor:pointer;
+}
+
+.barnen {
+	font-style:italic;
+	color:grey;
+	font-size:20px;
+	font-family:helvetica;
+	position:relative;
+	top:0;
+	width:70px;
+	height:25px;
+	float:left;
+}
+
+.barnen a:link {
+	text-decoration:none;
+	color:grey;
+}
+
+.barnen a:visited {
+	text-decoration:none;
+	color:grey;
+}
+
+.barnen a:hover {
+	text-decoration:underline;
+	color:grey;
+}
+
+.barnen a:active {
+	text-decoration:none;
+}
+
+.logo {
+	position:relative;
+	top:-3px;
+	left:-33px;
+}
+
+.nyhet-index {
+	margin-top: 20px;
+}
+
+.anstallda {
+	height:300px;
+	width:200px;
+	float:left;
+	-moz-box-shadow:0 1px 0 #686868;
+	-webkit-box-shadow:0 0 2px #686868;
+	box-shadow:0 0 8px #B0B0B0;
+	padding:10px;
+	background:#E8E8E8;
+}
+
+.anstallda-kontakt {
+	height:300px;
+	width:200px;
+	-moz-box-shadow:0 1px 0 #686868;
+	-webkit-box-shadow:0 0 2px #686868;
+	box-shadow:0 0 8px #B0B0B0;
+	padding:10px;
+	background:#E8E8E8;
+	position:absolute;
+}
+
+.anstallda-kontakt-text {
+	float:right;
+	width:670px;
+}
+
+.anstallda-kontakt-text h1 {
+	font-size:36px;
+	margin:0;
+	padding:0;
+	margin-bottom:-15px;
+}
+
+.anstallda-kontakt-card {
+	width:910px;
+	margin-left:50px;
+	position:relative;
+	height:300px;
+	margin-top:70px;
+}
+
+.fadeinDaniel {
+	opacity:0;
+}
+
+.fadeinNenne {
+	opacity:0;
+}
+
+h1 {
+	margin:0;
+	padding:0;
+	font-family:"roboto";
+	color:#404040;
+}
+
+h2.index {
+	margin-top:30px;
+}
+
+h2 {
+	margin:0;
+	padding:0;
+	font-family:"roboto";
+	color:#404040;
+}
+
+h3 {
+	margin:0;
+	padding:0;
+	font-family:"roboto";
+	color:#fff;
+	font-size:24px;
+}
+
+#wrapper {
+}
+
+#containorwrap {
+	width:1025px;
+	height:auto;
+	margin:auto;
+	background-color:#fff;
+	position:relative;
+	top:12px;
+	-moz-box-shadow:0 0 15px #686868;
+	-webkit-box-shadow:0 0 15px #686868;
+	box-shadow:0 0 15px #686868;
+}
+
+#containorwrap-kontakt {
+	width:1025px;
+	height:1550px;
+	margin:auto;
+	background-color:#fff;
+	position:relative;
+	top:12px;
+	-moz-box-shadow:0 0 15px #686868;
+	-webkit-box-shadow:0 0 15px #686868;
+	box-shadow:0 0 15px #686868;
+}
+
+#containor {
+	margin:auto;
+	width:960px;
+	height:auto;
+}
+
+#top-bar {
+	height:130px;
+	width:960px;
+	margin:auto;
+}
+
+#logo {
+	width:330px;
+	height:90px;
+	position:relative;
+	top:12px;
+}
+
+#barnen {
+	position:relative;
+	width:210px;
+	height:25px;
+	float:right;
+	top:35px;
+}
+
+#daniel {
+}
+
+#jenny {
+}
+
+#simon {
+}
+
+#seperator {
+	width:20px;
+	height:30px;
+	background-color:#ff0;
+}
+
+#navigation {
+	height:60px;
+	clear:all;
+}
+
+/*Index*/
+#hem-index {
+	float:left;
+	width:90px;
+	height:60px;
+	color:#fff;
+}
+
+#kontakt {
+	float:left;
+	width:130px;
+	height:60px;
+}
+
+#baten {
+	float:left;
+	width:90px;
+	height:60px;
+}
+
+/*kontakta*/
+#hem-kontakt {
+	float:left;
+	width:90px;
+	height:60px;
+}
+
+#kontakt-kontakt {
+	float:left;
+	width:130px;
+	height:60px;
+	color:#fff;
+}
+
+#baten-kontakt {
+	float:left;
+	width:90px;
+	height:60px;
+}
+
+#header-image {
+	height:260px;
+	clear:all;
+}
+
+/*Index*/
+#content-index {
+	height:auto;
+}
+
+#about-index {
+	float:left;
+	width:640px;
+	margin-top: 20px;
+	margin-bottom:40px;
+}
+
+#nyheter-index {
+	float: right;
+	width: 319px;
+	height: 400px;
+	position:relative;
+	top:20px;
+	text-align: right;
+}
+
+#nyheter {
+	width:319px;
+	height:30px;
+}
+
+#streck {
+	width:1px;
+	height:350px;
+	float:right;
+	background-color:#C8C8C8;
+	position:relative;
+	top:60px;
+}
+
+#anstallda-index {
+	clear:both;
+	height:360px;
+}
+
+/*Kontakta*/
+#content-kontakt {
+	display:block;
+}
+
+.mailto {
+}
+
+/*Footer*/
+#footer {
+	height:200px;
+	background-color:#303030;
+	clear:both;
+	position:relative;
+	top:40px;
+	width:1120px;
+	margin:auto;
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+}
+
+#johnfooter {
+	color:#fff;
+	position:absolute;
+	bottom:1px;
+	right:12px;
+	display:block;
+	background:grey;
+	padding-top:7px;
+	padding-right:7px;
+	padding-left:7px;
+	padding-bottom:4px;
+	border-top-right-radius:7px;
+	border-top-left-radius:7px;
+}
+
+#kontakta {
+	background-image:url(../images/kontaktaoss400.png);
+	width:200px;
+	height:40px;
+}
+
+#kontakta:hover {
+	background-position:-204px 0;
+}
+
+#uke-stuff {
+	background-image:url(../images/uke-stuff.png);
+}
+
+#uke-stuff:hover {
+	background-position:-200px 0;
+}

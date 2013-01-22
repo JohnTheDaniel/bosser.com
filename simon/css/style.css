@@ -1,0 +1,103 @@
+/*Main Layout*/
+html, body  {
+	margin:0;
+	padding:0;
+	font-family: helvetica, sans-serif;
+	height: 100%;
+}
+body {
+	background-image: url('../images/background.png');
+	background-repeat: no-repeat;
+	background-color: black;
+	opacity: 0;
+	height: 100%;
+}
+h1 {
+	margin: 0;
+	margin-top: 50px;
+	margin-bottom: -90px;
+	padding: 0;
+	font-size: 220px;
+	color: #6699CC;
+}
+.nav {
+	cursor: pointer;
+}
+	
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+#header {
+	opacity: 0;
+	margin: auto;
+	margin-top: 50px;
+	WIDTH: 900PX;
+	height: 300px;
+}
+#header-img {
+	
+}
+#header-text {
+	font-size: 50px;
+	display: none;
+}
+#navigation  {
+	color: #F0F0F0;
+	background: #181818;
+	height: 50px;
+	font-size: 20px;
+	width: 950px;
+	margin: auto;
+	position: relative;
+}
+#navigation img {
+	position: absolute;
+}
+#nav-text span {
+	border-left: 1px solid #F0F0F0;
+}
+#nav-text {
+	padding-top: 13px;
+	padding-left: 10px;
+}
+#hem {
+	width: 40px;
+	float: left;
+	padding-right: 7px;
+}
+#containor {
+	margin: auto;
+	width: 900px;
+	background: #F8F8F8;
+	height: 1000px;
+	position: relative;
+	padding-bottom: 100px;
+}
+#content {
+	margin-left: 10px;
+	position: relative;
+	top:5px;
+}
+
+
+/*Footer stuffness*/
+#footer {	
+	position: absolute;
+	bottom: 0px; 
+	margin: auto;
+	height: 100px;
+	width: 100%;
+	clear: both;
+	background:#6699FF;
+}
+#footer-content {
+	background: green;
+	width: 100%;
+	margin: auto;
+	margin-top: 40px;
+	background-image: url('../images/tartan.png');
+	height: 60px;
+	color: white;;
+}
+/*Stop Main layout*/
