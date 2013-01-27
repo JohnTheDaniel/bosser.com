@@ -34,7 +34,7 @@
                 </div>
             </div><!--länkar start-->
 
-            <div id="hem-index" onclick="window.location.href='index.html'">
+            <div id="hem" onclick="window.location.href='index.html'">
                 <div class="meny">
                     <center>
                         <h3><i>Hem</i></h3>
@@ -61,4 +61,18 @@
 
         <div id="header-image"></div>
     </div>
-
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		//Hittar url för sidan där navwrap används
+		var href = window.location.href
+		
+		//om urlen innehåller "index.php" så är vi på index-sidan 
+		if (href.indexOf("index.php") !== -1){
+			//Anpassad css för index.
+			$("#navwrap").css("background", "url(images/backgroundnewt.png)");
+			$("#hem").css("color", "color:blue;");
+		}
+		
+	});
+</script>
